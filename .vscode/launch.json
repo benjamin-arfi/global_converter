@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "TextTranslator",
+            "request": "launch",
+            "mainClass": "TextTranslator",
+            "projectName": "global_converter_1c4910e1"
+        },
+        {
+            "type": "java",
+            "name": "test2",
+            "request": "launch",
+            "mainClass": "test2",
+            "projectName": "global_converter_1c4910e1"
+        },
+        {
+            "type": "java",
+            "name": "traduction",
+            "request": "launch",
+            "mainClass": "traduction",
+            "projectName": "global_converter_1c4910e1"
+        },
+        {
+            "type": "java",
+            "name": "traduire",
+            "request": "launch",
+            "mainClass": "traduire",
+            "projectName": "global_converter_1c4910e1"
+        },
+        {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "extensionHost"
+        }
+    ]
+}
